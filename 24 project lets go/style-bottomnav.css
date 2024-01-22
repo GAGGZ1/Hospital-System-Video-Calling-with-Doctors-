@@ -1,0 +1,174 @@
+.bottomNav{
+    background-color: #202c4c;
+      color: #fff;
+      font-family: Arial, sans-serif;
+   
+  }
+  .till-design{
+   display:flex;
+    margin:80px;
+    margin-bottom:-20px;
+    
+  }
+  .full-get-in-touch{
+  padding-top:60px;
+    padding-bottom:60px;
+    display:flex;
+    flex-direction: column;
+    width:500px;
+  
+  }
+  
+  .social-get-in-touch{
+    color:#18c4dc;
+    text-decoration:underline white 3px;;
+    text-underline-offset:10px;
+    font-weight:bold;
+    font-size:20px;
+  
+  }
+  
+  .para-touch{
+  margin-top:4px;
+  }
+  
+  .full-popular-links{
+    padding-top:60px;
+    padding-bottom:60px;
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    margin-left:80px;
+  }
+  
+  .arrowed{
+      font-size: 20px;
+      margin-right: -80px;
+      
+  }
+  .arrowed .popular_links{
+      list-style-type: none;
+      padding: 0;
+      /* width: 200px; */
+    
+  }
+  .arrowed .popular_links li::before{
+      content: ">";
+      font: 20px 'Consolas';
+      font-weight: 900;
+      margin-right: 10px;
+  }
+  
+  .popular-link-head{
+    color:#18c4dc;
+    text-decoration:underline white 3px;;
+    text-underline-offset:10px;
+    font-weight:bold;
+    font-size:20px;}
+  
+  .full-news-letter{
+    
+     padding-top:60px;
+    padding-bottom:60px;
+    display:flex;
+    flex-direction: column;
+    width:490px;
+   margin-left: 80px;
+    margin-top:-11px;
+
+  }
+  .news-letter-heading{
+  color:#18c4dc;
+    text-decoration:underline white 3px;;
+    text-underline-offset:10px;
+    font-weight:bold;
+    font-size:20px;
+  }
+  
+  .image12-women-with-doc{
+      
+     padding-top:200px;
+    padding-bottom:60px;
+    display:flex;
+    flex-direction: column;
+    margin-top:-4px;
+  }
+  
+  
+  .image12-women-with-doc img {
+    width: 500px; 
+    height: auto; 
+    margin-left:100px;
+    
+  }
+  /* Add these styles to your CSS file */
+  .newsletter {
+    
+    align-items: center;
+  }
+  
+  .newsletter input[type="email"] {
+    border: 2px ; /* Border color */
+    border-radius:10px 10px 10px 0; /* Border radius for rounded corners */
+    padding: 10px; /* Padding to increase the size of the input box */
+    width: 250px; /* Adjust the width of the input box as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+  }
+  
+  .signupbtn {
+    margin-left: px; /* Adjust the margin as needed to create space between the input and button */
+    border: 2px ; /* Border color for the button */
+    border-radius: 0 0 10px  10px ; /* Border radius for rounded corners */
+  /* Padding to increase the size of the button */
+    cursor: pointer;
+    background-color: #18c4dc; 
+    width: 90px;
+    height:35px;
+   /* Set the background color to white */
+  
+    
+  }
+  .signupbtn a{
+      text-decoration:none;
+    color: white; /* Set the text color for the button */
+  }
+  .signupbtn a:hover{
+    text-decoration:none;
+  color: #202c4c; /* Set the text color for the button */
+}
+  .clearfix {
+    overflow: auto;
+  }
+  
+  .follow-us-head{ 
+    color:#18c4dc;
+    text-transform: capitalize;
+    text-decoration:underline white 4px;
+    text-underline-offset:10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 30px;
+    margin-left: 10px;
+   }
+
+   .icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Change to flex-start to align to the left */
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 17px;
+    font-size: 30px;
+  }
+  
+  .twitter, .face, .insta, .linkedin {
+    color:white;
+    transition: 0.2s;
+    margin-right: 10px; /* Adjust the margin-right value to add space between icons */
+  }
+  
+  .twitter:hover, .insta:hover, .face:hover, .linkedin:hover {
+    color: #18c4dc;
+  }
+  
