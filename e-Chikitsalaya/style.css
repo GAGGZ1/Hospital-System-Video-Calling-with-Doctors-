@@ -1,0 +1,593 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background: #f0f0f0;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #18c4dc;
+}
+body{
+    overflow-y: scroll;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.topnav{
+    background-color:white;
+    overflow: hidden;
+    /* display:flex; */
+    /* justify-content: space-between; */
+    
+    padding: 10px 20px;
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 26px;
+   text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.topnav img{
+    margin-left: 10px;
+    height:75px;
+    padding-left: 100px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: rgb(0, 173, 253);
+    transition: 0.3s;
+
+    text-decoration: underline;
+}
+
+.topnav a.active{
+    /* background-color:  rgb(0, 173, 253); */
+    color: rgb(0, 173, 253);
+    text-decoration: underline;
+}
+#img-icon-top-nav{
+  cursor: pointer; /* Change to a crosshair cursor on hover */
+}
+.buttonlink{
+    text-decoration: none;
+    color: #092f48;
+}
+button{
+    background-color: rgb(0, 173, 253);
+    display: inline-block;
+    font-size: 13.5px;
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin-left: 10px; */
+    /* color: white; */
+    /* padding: 2px 5px; */
+    /* margin:8px 0; */
+    border: 2px solid #18c4dc;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+.bottom-right{
+     
+    bottom: 20px;
+    right:20px;
+    
+    color: #fff;
+    padding: 10px ;
+    max-width: 300px;    
+}
+
+.background-container {
+    background-image: url('/10/1/24%20project%20lets%20go/img/hero.jpg');
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center top; /* Adjust the background position */
+    background-repeat: no-repeat;
+    height: 80vh; /* Make sure the container takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the overlay text */
+.overlay-text {
+    font-size: 85px; /* Adjust the font size */
+    color: white; /* Text color on the image */
+    position: absolute;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+    left: 9%;
+    top: 30%;
+    text-transform: uppercase;
+}
+.overlay-text2 {
+    font-size: 85px; /* Adjust the font size */
+    color: white; /* Text color on the image */
+    position: absolute;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+    left: 9%;
+    top: 50%;
+    text-transform: uppercase;
+}
+.overlay-text3 {
+    font-size: 30px; /* Adjust the font size */
+    color: white; /* Text color on the image */
+    position: absolute;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+    left: 9%;
+    top: 18%;
+    text-transform:capitalize;
+    color: #18c4dc;
+    padding-bottom: 15px;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+}
+
+.welcomeunder{
+    color:   rgb(0, 173, 253);
+
+    text-decoration: underline;
+    padding: 5px;
+}
+
+
+/* Social NAvBAR*/
+
+.socialtopnav{
+    background-color:white;
+    overflow: hidden;
+    /* display:flex; */
+    /* justify-content: space-between; */
+    
+    padding: 10px 20px;
+}
+
+.socialtopnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 26px;
+   text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.socialtopnav a:hover{
+    background-color: #ddd;
+    color: rgb(0, 173, 253);
+    transition: 0.3s;
+}
+
+.socialtopnavv a.active{
+    /* background-color:  rgb(0, 173, 253); */
+    color: rgb(0, 173, 253);
+    text-decoration: underline;
+}
+
+.socialtopnav .call-outline{
+    float: left;
+    margin-left: 0px;
+    margin-top: 1%;
+    
+}
+.socialtopnav .call2-outline{
+    float:left;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 0px;
+    float: left;
+    margin-left: 0px;
+    
+}
+.socialtopnav .mail-outline{
+    float:left;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 0px;
+    float: left;
+    margin-left: 15px;
+  
+    
+}
+.rectangle {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 30px; /* rounded corners for the rectangle */
+    transition: background-color 0.3s ease-in-out;
+    overflow: hidden; /* Keep overflow hidden */
+    background-color: transparent; /* Set initial background color to transparent */
+    right: 28%;
+    top: 28%;
+
+}
+.text-find-doc a {
+  text-decoration: none; /* Remove underline */
+  color: black /* Change the color to red (or any other color you prefer) */
+}
+  .rectangle:hover {
+    background-color: white !important; /* Change background color on hover */
+  }
+  .appointment a {
+    text-decoration: none; /* Remove underline */
+    color: black /* Change the color to red (or any other color you prefer) */
+  }
+  .text-find-doc {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.rectangle2 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 30px; /* rounded corners for the rectangle */
+    transition: background-color 0.3s ease-in-out;
+    overflow: hidden; /* Keep overflow hidden */
+    background-color: transparent; /* Set initial background color to transparent */
+    right: 25%;
+    top: 28%;
+
+}
+
+  .rectangle2:hover {
+    background-color: white !important; /* Change background color on hover */
+  }
+
+  .appointment {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Section 2 Doc Surgery */
+.DocImageSurgery img{
+    width: 800px;
+    display: flex;
+
+    height: 600px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    clip-path: polygon(20% 0, 80% 0, 80% 100%, 20% 100%);
+    
+  
+}
+.DocImageSurgery .image-containerDocImag{
+    overflow: hidden;
+}
+
+#docSurgery {
+    display: flex;
+    /* background: gold; */
+    overflow: hidden;
+  }
+  
+  .DocImageSurgery {
+    display: flex;
+    align-items: center;
+   
+    ;/* Adjust as needed */
+  }
+  
+  .image-containerDocImag {
+    overflow: hidden;
+  }
+
+
+.text-containeraboutusdocsur{
+    margin-top: 10%; /* Adjust as needed */
+    padding-bottom: 3%;
+}
+
+.Qualified,
+.Emergency,
+.Free,
+.Accurate {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #eeeee4;
+  display: flex;
+  flex-direction: column; /* Changed from row to column */
+  align-items: center;
+  justify-content: center; /* Changed from flex-end to center */
+  color: black;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 0%;
+}
+.cirlcrQualifiedDocID{
+    color: #18c4dc
+}
+.circle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+/* Added a new rule for styling the container div inside each circle */
+.circle > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomNav{
+    background-color: #202c4c;
+    color: #fff;
+}
+
+.AboutusDocText{
+    color: rgb(0, 173, 253);
+    margin-right: 0%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform:capitalize;
+    margin-right: 87%;
+    margin-top: 21% ;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textDocBest{
+    font-weight: bold;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color:  #092f48;
+    margin-right: 0%;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform:uppercase;
+    display:flex;
+    margin-top: -10px;
+}
+
+.textDocTop, .textDocSur{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.midsectionsection{
+    text-transform: uppercase;
+    color:#18c4dc;
+    text-decoration: underline;
+    
+    text-underline-offset: 12px;
+    font-size: 22px;
+    font-family:  "PT Sans", Calibri, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.midsectionExcellence{
+    text-transform: uppercase;
+    color: #092f48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+
+
+  .container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .container2 {
+    display: flex;
+    margin-bottom: 80px;
+   
+   
+    
+  }
+
+  .square {
+    position: relative;
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height */
+    
+    /* border: solid black 1px; */
+    box-sizing: border-box;
+    background-color:#f0f4fc;
+    margin: 10px;
+    position: relative; /* Added position relative */
+  }
+.oval {
+      position: relative;
+      width: 85%;
+      height: 50%;
+      width: 10px;
+      height: 10px;
+      background-color: black;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transform: rotate(-22deg);
+      margin-bottom: 5px;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-left: 10px;
+      transform: rotate(-22deg);
+      margin: 10px;
+    }
+   
+  
+    .icon2 {
+        transform: rotate(22deg);
+        font-size: large;
+      }
+      
+.Qualified2,
+.Emergency2,
+.Free2,
+.Accurate2
+{
+  margin: 10px;
+  /* width: 150px; */
+  height: 150px;
+  /* border-radius: 100%; */
+  background-color: #f0f4fc;
+  display: flex;
+  flex-direction: column; /* Changed from row to column */
+  align-items: center;
+  justify-content: center; /* Changed from flex-end to center */
+  color: black;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 25%;
+}
+
+.emergency-section-cont{
+    font-size: 12px;
+}
+
+
+ .section12 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column; /* Added this line */
+    }
+
+    .square23 {
+      height: 250px;
+      width: 250px;
+      margin: 10px;
+      background-color: #f0f4fc;
+      position: relative; /* Added this line */
+      overflow:hidden;
+    }
+
+    .oval34 {
+      margin-left: 85px;
+      height: 60%;
+      width: 30%;
+      background-color: #18c4dc;
+      /*border-style: solid;
+      border-color: red;*/
+      border-radius: 50%;
+      transform: rotate(62deg);
+      position: absolute; /* Added this line */
+    }
+
+    .icon-on-oval {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top:-52px;
+      font-size:32px;
+      color:white;
+    }
+
+    .para56 {
+      margin-top: 135px;
+      margin-left: 62px;
+      font-size: 30px;
+    }
+
+    .container78 {
+      display: flex;
+    }
+
+    .container89 {
+      display: flex;
+    }
+    
+    .cirlcrQualifiedDocID1{
+       color: #18c4dc;
+       
+       font-size: 30px;
+       margin-top:-33px;
+        text-align: center;
+	}
+    .emergency-section-cont{
+    	font-size:13px;
+        margin-top:-1px;
+        text-align: center;
+        color: #333333;
+
+    }
+    
+    .blood-para{
+     margin-top: 135px;
+      margin-left: 85px;
+      font-size: 30px;
+    
+    }
+    .sectionmid3{
+        margin-bottom: -100px;
+        line-height: 1; 
+    }
+
+    .location-text{
+      text-decoration: none;
+      color: white;
+    }
+    .location-text:hover{
+      text-decoration: none;
+    }
