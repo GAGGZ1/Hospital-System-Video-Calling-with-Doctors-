@@ -104,11 +104,10 @@ python app.py
 1. <img width="1512" alt="Screenshot 2025-06-03 at 4 57 29 PM" src="https://github.com/user-attachments/assets/e1468636-e3ed-4a14-8fd7-a0097379611b" />
 2. <img width="1512" alt="Screenshot 2025-06-03 at 4 57 39 PM" src="https://github.com/user-attachments/assets/24517d3c-835e-495c-9b7f-6ac603a18df7" />
 3. <img width="1511" alt="Screenshot 2025-06-03 at 4 57 50 PM" src="https://github.com/user-attachments/assets/6184d055-71e0-4b31-b7b1-47b0da0ec81e" />
-4. <img width="1511" alt="Screenshot 2025-06-03 at 4 58 00 PM" src="https://github.com/user-attachments/assets/1a1bc0b9-14eb-4ca4-a2b7-7e5ec970fdb1" />
-5. <img width="1511" alt="Screenshot 2025-06-03 at 4 58 14 PM" src="https://github.com/user-attachments/assets/4fcdccfc-b231-460f-943e-1b0fffbbcb36" />
-6. <img width="1486" alt="Screenshot 2025-06-03 at 4 58 30 PM" src="https://github.com/user-attachments/assets/807d2d1a-b302-47e8-be2e-e0918a57536d" />
-7. <img width="1481" alt="Screenshot 2025-06-03 at 4 58 48 PM" src="https://github.com/user-attachments/assets/9eaf521b-ac5f-405d-bb90-c91770cc762b" />
-8. <img width="1457" alt="Screenshot 2025-06-03 at 4 58 55 PM" src="https://github.com/user-attachments/assets/3ae88e2a-7c56-4dfc-9ad3-babc13c0264f" />
+4. <img width="1511" alt="Screenshot 2025-06-03 at 4 58 14 PM" src="https://github.com/user-attachments/assets/4fcdccfc-b231-460f-943e-1b0fffbbcb36" />
+5. <img width="1486" alt="Screenshot 2025-06-03 at 4 58 30 PM" src="https://github.com/user-attachments/assets/807d2d1a-b302-47e8-be2e-e0918a57536d" />
+6. <img width="1481" alt="Screenshot 2025-06-03 at 4 58 48 PM" src="https://github.com/user-attachments/assets/9eaf521b-ac5f-405d-bb90-c91770cc762b" />
+7. <img width="1457" alt="Screenshot 2025-06-03 at 4 58 55 PM" src="https://github.com/user-attachments/assets/3ae88e2a-7c56-4dfc-9ad3-babc13c0264f" />
 
 
 ---
