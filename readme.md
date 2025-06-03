@@ -1,30 +1,27 @@
-Here’s a professional and detailed `README.md` file tailored for your **Hospital-System-Video-Calling-with-Doctors-** project, including the features you've implemented so far:
-
----
-
-```markdown
 # 🏥 Hospital System with Video Calling and Online Appointments
 
 A full-stack web application that allows **patients** and **doctors** to register, log in, schedule video consultations, and manage appointments. Integrated with **Stripe** for secure payment processing.
+
+---
 
 ## 🚀 Features
 
 ### 👤 User Authentication
 - 🔐 **Registration & Login** for both patients and doctors.
 - 🚪 **Logout functionality** to end user sessions securely.
-- Role-based access for **Doctors** and **Patients**.
+- 🧑‍⚕️ Role-based access for **Doctors** and **Patients**.
 
 ### 🗓️ Appointment System
 - 📅 Patients can **book appointments** with available doctors.
 - 📌 Patients can **check appointment booking status**.
-- 📥 Doctors can **view their appointment list** in their dashboard.
+- 📥 Doctors can **view their appointment list** in the dashboard.
 
 ### 💳 Stripe Payment Integration
-- 💰 Patients pay **consultation fees** during the appointment booking process.
-- ✅ Payment confirmation before appointment confirmation.
+- 💰 Patients pay **consultation fees** during the booking process.
+- ✅ Secure Stripe payment before appointment confirmation.
 
-### 📹 Video Consultation (Upcoming / WIP)
-- Planned integration of **video calling feature** between doctors and patients using WebRTC or other real-time solutions.
+### 📹 Video Consultation (Upcoming)
+- Planned integration of **real-time video calling** between doctors and patients using WebRTC or similar technologies.
 
 ---
 
@@ -33,11 +30,15 @@ A full-stack web application that allows **patients** and **doctors** to registe
 ```
 
 Hospital-System-Video-Calling-with-Doctors-/
-├── app
-├── templates/
-├── static/
+├── app/
+│   ├── templates/
+│   ├── static/
+│   ├── routes/
+│   ├── models/
+│   └── **init**.py
 ├── config.py
 ├── requirements.txt
+├── app.py
 └── README.md
 
 ````
@@ -46,66 +47,62 @@ Hospital-System-Video-Calling-with-Doctors-/
 
 ## ⚙️ Technologies Used
 
-- **Backend**: Python, Flask, MySQL
-- **Frontend**: HTML, CSS, JavaScript,
-- **Database**: MySQL 
-- **Authentication**: Flask-Login
-- **Payments**: Stripe API
-
+- Backend: Python, Flask, MySQL
+- Frontend: HTML, CSS, JavaScript
+- Database: MySQL  
+- Authentication: Flask-Login  
+- Payments: Stripe API
 
 ---
 
 ## 🧪 Setup Instructions
 
-1. **Clone the repository**:
+### 1. Clone the Repository
 
-   ```bash
-   git clone https://github.com/GAGGZ1/Hospital-System-Video-Calling-with-Doctors-.git
-   cd Hospital-System-Video-Calling-with-Doctors-
+```bash
+git clone https://github.com/GAGGZ1/Hospital-System-Video-Calling-with-Doctors-.git
+cd Hospital-System-Video-Calling-with-Doctors-
 ````
 
-2. **Create a virtual environment**:
+### 2. Create and Activate a Virtual Environment
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-3. **Install dependencies**:
+### 3. Install Dependencies
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-4. **Configure environment variables**:
+### 4. Configure Environment Variables
 
-   
-   update your `config.py` file:
+Update the `config.py` file with your credentials:
 
-   ```
-   MYSQL_HOST = 
-   MYSQL_USER = 
-   MYSQL_PASSWORD = 
-   MYSQL_DB = 
+```python
+MYSQL_HOST = "your_host"
+MYSQL_USER = "your_user"
+MYSQL_PASSWORD = "your_password"
+MYSQL_DB = "your_db"
 
-  Stripe keys
+STRIPE_PUBLIC_KEY = "your_stripe_public_key"
+STRIPE_SECRET_KEY = "your_stripe_secret_key"
+SECRET_KEY = "your_flask_secret_key"
+```
 
-  STRIPE_PUBLIC_KEY = 
-  STRIPE_SECRET_KEY =
-  
-   ```
+### 5. Run the App
 
-5. **Run the app**:
-
-   ```bash
-  python3 app.py
-   ```
+```bash
+python app.py
+```
 
 ---
 
-## 📸 Screenshots 
+## 📸 Screenshots
 
-
+*Add screenshots of login, booking, doctor dashboard, and payment screens here.*
 
 ---
 
@@ -115,8 +112,8 @@ Hospital-System-Video-Calling-with-Doctors-/
 * [x] Appointment Booking & Viewing
 * [x] Stripe Integration for Payment
 * [ ] Real-time Video Consultation
-* [ ] Admin Panel for managing doctors and appointments
-* [ ] Email notifications/reminders
+* [ ] Admin Panel for Managing Users
+* [ ] Email Notifications & Reminders
 
 ---
 
@@ -128,15 +125,11 @@ Contributions are welcome! Please fork the repo and submit a pull request.
 
 ## 📃 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## 💬 Contact
 
-For questions or collaboration requests:
-
 * GitHub: [@GAGGZ1](https://github.com/GAGGZ1)
-* Email: `chauhangagan117@gmail.com`
-
-
+* Email: [chauhangagan117@gmail.com](mailto:chauhangagan117@gmail.com)
