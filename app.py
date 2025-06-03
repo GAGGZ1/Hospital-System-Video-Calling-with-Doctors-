@@ -9,7 +9,7 @@ import secrets
 
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+
 stripe.api_key = config.STRIPE_SECRET_KEY
 Stripe(app)
 
