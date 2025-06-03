@@ -35,7 +35,6 @@ Hospital-System-Video-Calling-with-Doctors-/
 │   ├── static/
 │   ├── routes/
 │   ├── models/
-│   └── **init**.py
 ├── config.py
 ├── requirements.txt
 ├── app.py
